@@ -1,0 +1,24 @@
+{
+  "name": "build_react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build:scripts",
+    "build:scripts": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "path": "^0.12.7",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
